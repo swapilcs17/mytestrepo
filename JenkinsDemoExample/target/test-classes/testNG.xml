@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Jenkins Demo" >
+    
+  
+   
+  <test name="Test CNN" >
+    <classes>
+       <class name="com.realmadrid.com.test.CNNTest" />
+    </classes>
+  </test>
+  
+  <test name="Test Demo" >
+    <classes>
+       <class name="com.realmadrid.com.test.DemoTest" />
+    </classes>
+  </test> 
+ 
+ 
+</suite>

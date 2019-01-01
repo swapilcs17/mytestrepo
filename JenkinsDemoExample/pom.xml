@@ -100,16 +100,9 @@
 		</dependency>
 
 
+</dependencies>
 
-
-	</dependencies>
-	<repositories>
-		<repository>
-			<id>forplay-legacy</id>
-			<url>http://forplay.googlecode.com/svn/mavenrepo</url>
-		</repository>
-	</repositories>
-	<build>
+<build>
 
 		<plugins>
 			<plugin>
@@ -121,6 +114,7 @@
 					<target>1.8</target>
 				</configuration>
 			</plugin>
+			
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
@@ -136,7 +130,11 @@
 					</properties>
 				</configuration>
 			</plugin>
+			
+			
 
 		</plugins>
 	</build>
+
+	
 </project>
